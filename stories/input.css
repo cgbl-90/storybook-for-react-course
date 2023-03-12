@@ -1,0 +1,39 @@
+label {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: block;
+}
+
+.input {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  border: 3px solid black;
+  width: 400px;
+}
+
+.input--secondary {
+  border: none;
+  border-bottom: 3px solid black;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.input--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.input--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.input--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
